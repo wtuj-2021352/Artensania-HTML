@@ -1,0 +1,211 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    background-color: #D35400;
+}
+
+nav ul {
+    list-style: none;
+    background: #F5B041;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: #D35400;
+}
+
+.hide {
+    font-size: 22px;
+    padding: 16px;
+    background-color: #F5B041;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.card {
+    float: left;
+    width: 100px;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+}
+
+.card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#contenido {
+    padding: 20px;
+}
+
+#descripcion-bio {
+    font-size: 20px;
+    text-align: justify;
+    margin: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none
+}
+
+#tituloNosotros {
+    font-size: 35px;
+    text-align: center;
+    margin: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none
+}
+
+#div-parrafo {
+    z-index: 1;
+    width: 540px;
+    height: 440px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #F5B041;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 15;
+    font-family: Arial, Helvetica, sans-serif;
+
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+/******************************************/
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+  
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+  
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+  
+button:hover {
+    opacity:1;
+}
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /**********************************************************/
+
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #FF2E75;
+    color: white;
+  }
